@@ -1,0 +1,65 @@
+body {
+    
+    
+    font-family: Arial, sans-serif;
+    margin: 80; /* Remove default margin to fill the entire viewport */
+    padding: 80; /* Remove default padding to fill the entire viewport */
+    background-image: url('{% static "background-image.png" %}');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Keep the background fixed when scrolling */
+    color: #333;
+    
+}
+
+h1 {
+    text-align: center;
+    margin-left: 200px;
+}
+
+form {margin-left: 200px;
+    margin-bottom: 20px;
+    
+}
+
+label {margin-left: 200px;
+    display: block;
+    margin-bottom: 10px;
+    
+}
+
+textarea {margin-left: 200px;
+    
+    width: 60%;
+}
+
+input[type="button"] {margin-left: 200px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="button"]:hover {
+    background-color: #45a049;
+}
+
+
+.second-textarea-container {
+    margin-left: 400px;
+    width: 80%;
+    max-width: 600px;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+    text-align: left; /* Move the second TextArea to the right */
+}
+
+
+
+
+
